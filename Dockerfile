@@ -1,4 +1,4 @@
 FROM node:latest
-MAINTAINER leowakelkamp@gmail.com
+MAINTAINER leo wakelkamp
 ADD app.js .
 CMD ["node", "app.js"]
