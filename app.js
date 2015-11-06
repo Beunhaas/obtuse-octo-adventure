@@ -1,6 +1,8 @@
 console.log("Enter name: ");
 var name = "user";
-console.log("Hello, " + name + " I want to play a little game >:D");
+
+name = process.argv.slice(2);
+console.log("Hello, " + name.join('') + " I want to play a little game >:D");
 
 gallows = new Array("--------\n|      |\n|\n|\n|\n|\n=====",
 "--------\n|      O\n|\n|\n|\n|\n=====",
